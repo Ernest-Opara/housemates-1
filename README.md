@@ -1,1 +1,1 @@
-# housemates
+# HouseMates
