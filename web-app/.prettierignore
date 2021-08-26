@@ -8,4 +8,4 @@ node_modules
 *.md
 .eslintrc
 .eslintrc.js
-*.html
+public
