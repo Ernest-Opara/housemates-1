@@ -7,14 +7,18 @@
     "dotenv": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.7",
+    "mongodb": "^4.1.1",
+    "mongoose": "^5.13.9",
+    "nodemon": "^2.0.12",
     "prettier": "^2.3.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "start": "nodemon app.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC"
