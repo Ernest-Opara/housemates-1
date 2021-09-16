@@ -1,7 +1,6 @@
 const getHome = (req, res) => {
-  return res.send({
-    status: 200,
-    message: 'Testing port'
+  return res.status(200).send({
+    data: 'testing port'
   })
 }
 

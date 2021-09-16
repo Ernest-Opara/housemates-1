@@ -1,10 +1,5 @@
 const getError = (req, res) => {
-  return res.send({
-    status: 404,
-    error: {
-      message: 'Oh oh! an error occured'
-    }
-  })
+  return res.status(400).send({ error: 'Error' })
 }
 
 export default { getError }
