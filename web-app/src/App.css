@@ -1,141 +1,340 @@
+/*
+ * Globals
+ */
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+
+/* Custom default button */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+#top {
+    background-color: #008060;
+}
+
+#ptext {
+    background-color: #008060;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* Padding for spacing */
+
+.inner {
+    padding: 30px;
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 20px;
+}
+
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.cover-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.second-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.wave-container {
+    position: relative;
+    background: #FFF;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.esvg {
+    display: block;
+}
+
+.home {
+    width: 300px;
+    height: 300px;
+    margin-top: -40px;
+    position: absolute;
+    left: 650px;
+    top: 500px;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#features {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #008060;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+.fparagraph {
+    color: grey;
+    font-weight: normal;
+}
+
+.press-logo {
+    width: 5%;
+    margin: 30px 30px;
+}
+
+hr {
+    border: groove black 1px;
+    border-bottom: none;
+    width: 69%;
+}
+
+
+/*
+ * Footer
+ */
+
+#footer {
+    background-color: #008060;
+}
+
+.footer-text {
+    color: white;
+}
+
+.bottom-ruler {
+    margin-bottom: 10rem;
+}
+
+
 /* LOGIN COMPONENT CSS ---- START */
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 .login {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  width: 90%;
-  margin: auto;
-  padding-top: 150px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
 }
+
 input,
 button {
-  border: none;
-  outline: none;
-  background: none;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .cont {
-  overflow: hidden;
-  position: relative;
-  max-width: 1100px;
-  height: 550px;
-  margin: 0 auto 100px;
-  background: #fff;
-  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
-  border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1100px;
+    height: 550px;
+    margin: 0 auto 100px;
+    background: #fff;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 20px;
 }
+
 .form {
-  position: relative;
-  max-width: 840px;
-  height: 100%;
-  transition: transform 1.2s ease-in-out;
-  padding: 80px 30px 0;
+    position: relative;
+    max-width: 840px;
+    height: 100%;
+    transition: transform 1.2s ease-in-out;
+    padding: 80px 30px 0;
 }
+
 .sub-cont {
-  overflow: hidden;
-  position: absolute;
-  left: 840px;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding-left: 260px;
-  background: #fff;
-  transition: transform 1.2s ease-in-out;
+    overflow: hidden;
+    position: absolute;
+    left: 840px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 260px;
+    background: #fff;
+    transition: transform 1.2s ease-in-out;
 }
+
 button {
-  display: block;
-  margin: 0 auto;
-  width: 47%;
-  height: 36px;
-  border-radius: 30px;
-  color: #fff;
-  font-size: 15px;
-  cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .img:before {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 1100px;
-  height: 100%;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg');
-  background-size: cover;
-  transition: transform 1.2s ease-in-out;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1100px;
+    height: 100%;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg');
+    background-size: cover;
+    transition: transform 1.2s ease-in-out;
 }
+
 h2 {
-  width: 100%;
-  font-size: 26px;
-  text-align: center;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
 }
+
 label {
-  display: block;
-  max-width: 360px;
-  margin: 25px auto 0;
-  text-align: center;
+    display: block;
+    max-width: 360px;
+    margin: 25px auto 0;
+    text-align: center;
 }
+
 label span {
-  font-size: 12px;
-  color: #cfcfcf;
-  text-transform: uppercase;
+    font-size: 12px;
+    color: #cfcfcf;
+    text-transform: uppercase;
 }
+
 input {
-  display: block;
-  width: 100%;
-  margin-top: 5px;
-  padding-bottom: 5px;
-  font-size: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 
 .signup {
-  display: none !important;
+    display: none !important;
 }
+
 .forgot-pass {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 12px;
-  color: #cfcfcf;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #cfcfcf;
 }
+
 .submit {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: #d4af7a;
-  text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #d4af7a;
+    text-transform: uppercase;
 }
 
 .submit:hover {
-  background: #cf9d57;
+    background: #cf9d57;
 }
 
 .fb-btn {
-  border: 2px solid #d3dae9;
-  color: #8fa1c7;
+    border: 2px solid #d3dae9;
+    color: #8fa1c7;
 }
+
 .fb-btn span {
-  font-weight: bold;
-  color: #455a81;
+    font-weight: bold;
+    color: #455a81;
 }
 
 .fb-btn:hover {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1198px) {
-  .sub-cont {
-    display: none;
-  }
-  .signup {
-    display: flex !important;
-  }
+    .sub-cont {
+        display: none;
+    }
+    .signup {
+        display: flex !important;
+    }
 }
+
+
 /* LOGIN COMPONENT CSS ---- END */
