@@ -1,6 +1,7 @@
 import User from '../models/user.js'
 import bcrypt from 'bcrypt'
 const saltRounds = 10
+import { translateError } from './util.js'
 
 const create = async ({ firstName, lastName, email, password }) => {
   try {
@@ -17,7 +18,7 @@ const create = async ({ firstName, lastName, email, password }) => {
     await user.save()
     return [true, user]
   } catch (error) {
-    return [false, error]
+    return [false, translateError(error)]
   }
 }
 
@@ -45,6 +46,8 @@ const hashPassword = async (password) => {
 const verifyPassword = async (userPassword, hashedPassword) => {
   return await bcrypt.compare(userPassword, hashedPassword)
 }
+
+
 
 export default {
   create,
