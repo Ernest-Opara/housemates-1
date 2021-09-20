@@ -6,7 +6,7 @@ const Layout = (props) => {
   return (
     <>
       <Header />
-       {/* eslint-disable-next-line react/prop-types */}
+      {/* eslint-disable-next-line react/prop-types */}
       <main className='mt-3'>{props.children}</main>
       <Footer />
     </>
