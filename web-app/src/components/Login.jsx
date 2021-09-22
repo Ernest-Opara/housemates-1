@@ -63,22 +63,11 @@ const Login = () => {
                   autoComplete='off'
                 />
               </label>
-              <p className='forgot-pass'>Forgot password?</p>
+              <a href="/signup" className='forgot-pass'>Sign up</a>
+
               <button type='button' onClick={handleLogin} className='submit'>
                 Sign In
               </button>
-              <p className=' signup d-flex justify-content-center'>OR</p>
-              {/* <p className='signup d-flex justify-content-center'>
-                {' '}
-                <a
-                  href='/signup'
-                  className=' btn btn-primary mx-auto'
-                  style={{ width: 'max-content' }}
-                >
-                  {' '}
-                  Sign up
-                </a>
-              </p> */}
             </div>
             <div className='sub-cont'>
               <div className='img'></div>
