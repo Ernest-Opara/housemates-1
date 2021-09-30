@@ -5,11 +5,8 @@ const Home = () => {
   return (
     <Layout>
       <section id='top'>
-        <div className='inner'>
-          <img className='logo' src='logo.png' />
-        </div>
 
-        <div className='inner cover'>
+        <div className='inner cover pt-5'>
           <h1 className='cover-heading'>Rent rooms with HouseMates.</h1>
           <p className='second-text'>
             Trusted by over 1,700,000 businesses worldwide

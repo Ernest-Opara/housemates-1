@@ -48,7 +48,6 @@ const Signup = () => {
         <form>
           <div className='cont d-flex flex-column justify-content-center'>
             <div className='form sign-in'>
-
               {error ? (
                 <div className='text-danger'>{error}</div>
               ) : (

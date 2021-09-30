@@ -63,7 +63,9 @@ const Login = () => {
                   autoComplete='off'
                 />
               </label>
-              <a href="/signup" className='forgot-pass'>Sign up</a>
+              <a href='/signup' className='forgot-pass'>
+                Sign up
+              </a>
 
               <button type='button' onClick={handleLogin} className='submit'>
                 Sign In

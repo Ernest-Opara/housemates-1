@@ -7,7 +7,7 @@ const Layout = (props) => {
     <>
       <Header />
       {/* eslint-disable-next-line react/prop-types */}
-      <main className='mt-3'>{props.children}</main>
+      <main className="mt-5"> {props.children}</main>
       <Footer />
     </>
   )
